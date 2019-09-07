@@ -1,0 +1,6 @@
+CREATE TABLE tasks
+(
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(50) UNIQUE NOT NULL,
+
+);
